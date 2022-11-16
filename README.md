@@ -6,4 +6,4 @@ preventing similar attackswhile responding to changing behavior. It can help cyb
 proactive in preventing threats and responding to active attacks in real time. 
 
  
-Kaggle is a subsidary of Google LLC, that offers finding and publishing of data sets, exploring and building building models for Machine Learning on Web based environments.
+**Kaggle** is a subsidary of Google LLC, that offers finding and publishing of data sets, exploring and building building models for Machine Learning on Web based environments.
