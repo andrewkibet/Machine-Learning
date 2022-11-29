@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="container-wrapper">
+    <div class="container">
+        <h1>FRUIT IDENTIFICATION</h1>
+        <input type="text" placeholder="diameter" id="diameter">
+        <input type="text" placeholder="Weight"id="weight">
+        <input type="text" placeholder="red" id="red">
+        <input type="text" placeholder="green" id="green">
+        <input type="text" placeholder="blue"id="blue">
+        <div class="button-container">
+            <button onclick="Submit()">DETECT FRUIT</button>
+        </div>
+    </div>
+    <div class="Result">
+        <h4>PREDICTED RESULTS</h4>
+        <span id="result"></span>
+    </div>
+</div>
+</body>
+</html>
